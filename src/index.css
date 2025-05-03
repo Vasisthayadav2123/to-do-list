@@ -1,0 +1,97 @@
+body{
+    background-color: #787878b9;
+}
+
+.todolist{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+button{
+    font-size: 1.3rem;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px  9px;
+    cursor: pointer;
+}
+.input-container{
+    margin: 10px;
+    padding: 5px 10px;
+}
+.up-button{
+    background-color: hsla(114, 88%, 50%, 0.459);
+    margin-left: 3px;
+}
+.downbutton{
+    background-color: hsla(61, 100%, 50%, 0.459);
+    margin-left: 3px;
+}
+.downbutton:hover{
+    background-color: hsla(61, 100%, 50%, 0.959);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+.up-button:hover{
+    background-color: hsla(114, 88%, 50%, 0.659);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+.remove-but{
+    background-color: hsla(0, 100%, 50%, 0.632);
+    margin-left: 3px;
+}
+
+.remove-but:hover{
+    background-color: hsla(0, 100%, 50%, 0.832);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+input{
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    margin-left: 5px;
+}
+
+.add-button{
+    background-color: hsla(0, 0%, 100%, 0.632);
+    margin-left: 3px;
+}
+
+.add-button:hover{
+    background-color: hsla(0, 0%, 100%, 0.832);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.1);
+}
+
+ol{
+    padding: 0px;
+}
+
+li{
+    font-size: 1.5rem;
+    list-style: none;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: solid 1px #000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+    padding: 5px 10px;
+    text-align: left;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    font-size: 1.3rem;
+}
+
+
